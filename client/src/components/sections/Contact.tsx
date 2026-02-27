@@ -53,10 +53,10 @@ export function Contact() {
   return (
     <section id="contact" className="py-24 relative bg-card/20 border-t border-white/5">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        
+
         <div className="grid lg:grid-cols-2 gap-16">
-          
-          <motion.div 
+
+          <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -79,7 +79,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Email me at</p>
-                  <a href="mailto:hello@visionary.ai" className="text-lg font-medium hover:text-primary transition-colors">hello@visionary.ai</a>
+                  <a href="mailto:hoursafter343@gmail.com" className="text-lg font-medium hover:text-primary transition-colors">hoursafter343@gmail.com</a>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -88,13 +88,13 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Based in</p>
-                  <p className="text-lg font-medium">Los Angeles, Digital Space</p>
+                  <p className="text-lg font-medium">Cairo, Egypt</p>
                 </div>
               </div>
             </div>
           </motion.div>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
@@ -109,10 +109,10 @@ export function Contact() {
                     <FormItem>
                       <FormLabel className="text-muted-foreground">Name</FormLabel>
                       <FormControl>
-                        <Input 
-                          placeholder="John Doe" 
-                          className="bg-background/50 border-white/10 focus-visible:ring-primary h-12 rounded-xl" 
-                          {...field} 
+                        <Input
+                          placeholder="John Doe"
+                          className="bg-background/50 border-white/10 focus-visible:ring-primary h-12 rounded-xl"
+                          {...field}
                         />
                       </FormControl>
                       <FormMessage />
@@ -126,10 +126,10 @@ export function Contact() {
                     <FormItem>
                       <FormLabel className="text-muted-foreground">Email</FormLabel>
                       <FormControl>
-                        <Input 
-                          placeholder="john@example.com" 
-                          className="bg-background/50 border-white/10 focus-visible:ring-primary h-12 rounded-xl" 
-                          {...field} 
+                        <Input
+                          placeholder="john@example.com"
+                          className="bg-background/50 border-white/10 focus-visible:ring-primary h-12 rounded-xl"
+                          {...field}
                         />
                       </FormControl>
                       <FormMessage />
@@ -143,18 +143,18 @@ export function Contact() {
                     <FormItem>
                       <FormLabel className="text-muted-foreground">Message</FormLabel>
                       <FormControl>
-                        <Textarea 
-                          placeholder="Tell me about your project..." 
-                          className="bg-background/50 border-white/10 focus-visible:ring-primary min-h-[120px] rounded-xl resize-none" 
-                          {...field} 
+                        <Textarea
+                          placeholder="Tell me about your project..."
+                          className="bg-background/50 border-white/10 focus-visible:ring-primary min-h-[120px] rounded-xl resize-none"
+                          {...field}
                         />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
                   )}
                 />
-                <Button 
-                  type="submit" 
+                <Button
+                  type="submit"
                   disabled={contactMutation.isPending}
                   className="w-full h-12 rounded-xl bg-primary text-primary-foreground hover:bg-primary/90 font-medium text-base shadow-[0_0_15px_rgba(6,182,212,0.2)] hover:shadow-[0_0_25px_rgba(6,182,212,0.4)] transition-all"
                 >

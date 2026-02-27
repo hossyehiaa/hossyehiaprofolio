@@ -20,9 +20,9 @@ export function Hero() {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 lg:px-8 w-full z-10 grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
-        
+
         {/* Text Content */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, x: -30 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
@@ -35,7 +35,7 @@ export function Hero() {
 
           <div className="space-y-4">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold font-display leading-[1.1]">
-              Crafting <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">AI-Powered</span> <br/>
+              Crafting <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent">AI-Powered</span> <br />
               Visual Stories.
             </h1>
             <div className="text-lg sm:text-xl text-muted-foreground max-w-lg leading-relaxed">
@@ -50,16 +50,16 @@ export function Hero() {
           </div>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               onClick={handleScrollToWork}
               className="rounded-full px-8 h-14 text-base bg-primary hover:bg-primary/90 shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] transition-all group"
             >
               View My Work
               <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button 
-              variant="outline" 
+            <Button
+              variant="outline"
               size="lg"
               className="rounded-full px-8 h-14 text-base border-white/10 hover:bg-white/5 hover:text-foreground transition-all group"
             >
@@ -70,27 +70,27 @@ export function Hero() {
         </motion.div>
 
         {/* Visual Content */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="relative lg:ml-auto w-full max-w-md aspect-[4/5] rounded-[2rem] overflow-hidden group"
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-background/80 via-transparent to-transparent z-10" />
-          
+
           {isLoading ? (
             <Skeleton className="w-full h-full bg-white/5" />
           ) : (
             <>
               {/* landing page hero AI avatar profile */}
-              <img 
-                src={profile?.pictureUrl || "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"} 
+              <img
+                src={profile?.pictureUrl || "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80"}
                 alt={profile?.name || "AI Creator"}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
               />
               <div className="absolute bottom-8 left-8 right-8 z-20 glass-panel p-6 rounded-2xl">
                 <h3 className="text-xl font-bold text-foreground">
-                  {profile?.name || "Alex Vision"}
+                  {profile?.name || "Hassan Yehia"}
                 </h3>
                 <p className="text-sm text-primary mt-1">Lead AI Video Director</p>
               </div>

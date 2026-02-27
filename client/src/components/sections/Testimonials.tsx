@@ -8,13 +8,13 @@ const defaultTestimonials = [
     id: 1,
     author: "Sarah Jenkins",
     role: "Creative Director, Nexus Media",
-    content: "The way they blend AI tools to create final compositions is mind-blowing. Delivered our campaign 3x faster than traditional pipelines."
+    content: "The way Hassan blends AI tools to create final compositions is mind-blowing. Delivered our campaign 3x faster than traditional pipelines."
   },
   {
     id: 2,
     author: "David Chen",
     role: "Founder, FutureTech",
-    content: "A true visionary. The aesthetic choices and prompt precision resulted in a visual identity we couldn't have imagined ourselves."
+    content: "Hassan is a true visionary. The aesthetic choices and prompt precision resulted in a visual identity we couldn't have imagined ourselves."
   }
 ];
 
@@ -25,8 +25,8 @@ export function Testimonials() {
   return (
     <section id="testimonials" className="py-24 relative">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        
-        <motion.div 
+
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -54,12 +54,12 @@ export function Testimonials() {
                 className="glass-panel p-8 md:p-10 rounded-3xl relative overflow-hidden group hover:border-primary/30 transition-colors duration-300"
               >
                 <Quote className="absolute top-6 right-6 w-24 h-24 text-white/5 -rotate-12 group-hover:text-primary/10 transition-colors duration-500" />
-                
+
                 <div className="relative z-10">
                   <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-8 italic">
                     "{item.content}"
                   </p>
-                  
+
                   <div className="flex items-center gap-4">
                     <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center text-white font-bold text-lg">
                       {item.author.charAt(0)}

@@ -20,13 +20,13 @@ export class DatabaseStorage implements IStorage {
     const [profile] = await db.select().from(profiles).limit(1);
     return profile;
   }
-  
+
   async updateProfile(updates: UpdateProfileRequest): Promise<Profile> {
     const [profile] = await db.select().from(profiles).limit(1);
     if (!profile) {
       // Create if doesn't exist
       const [newProfile] = await db.insert(profiles).values({
-        name: updates.name || "Alex Chen",
+        name: updates.name || "Hassan Yehia",
         title: updates.title || "AI Video Creator",
         pictureUrl: updates.pictureUrl || "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61",
         summary: updates.summary || "Creating next generation AI videos.",

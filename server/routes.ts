@@ -130,13 +130,13 @@ async function seedDatabase() {
       {
         author: "Sarah Jenkins",
         role: "Creative Director",
-        content: "Working with Alex was a game-changer for our agency. The AI pipelines they set up saved us weeks of production time.",
+        content: "Working with Hassan was a game-changer for our agency. The AI pipelines he set up saved us weeks of production time.",
         displayOrder: 1
       },
       {
         author: "David Wu",
         role: "Indie Filmmaker",
-        content: "The quality of the AI generated visuals Alex produced for my short film completely blew my mind. True artistry.",
+        content: "The quality of the AI generated visuals Hassan produced for my short film completely blew my mind. True artistry.",
         displayOrder: 2
       }
     ]);
