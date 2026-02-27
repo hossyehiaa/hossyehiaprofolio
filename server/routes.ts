@@ -99,23 +99,23 @@ async function seedDatabase() {
     const { projects: projectsSchema } = await import("@shared/schema");
     await db.insert(projectsSchema).values([
       {
-        title: "Neon Dreams",
-        description: "A cyberpunk short film fully generated using Midjourney and Runway Gen-2.",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        title: "Commercial Showcase",
+        description: "A professional showcase of high-end commercial projects and AI-driven visual storytelling.",
+        videoUrl: "https://vimeo.com/showcase/12101927",
         thumbnailUrl: "https://images.unsplash.com/photo-1605806616949-1e87b487cb2a",
         displayOrder: 1
       },
       {
-        title: "Ethereal Echoes",
-        description: "Music video for an indie electronic artist, featuring AI-stylized performance capture.",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        title: "Cinematic AI Narratives",
+        description: "Exploring the boundaries of generative AI to create immersive cinematic experiences.",
+        videoUrl: "https://vimeo.com/showcase/12101927",
         thumbnailUrl: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4",
         displayOrder: 2
       },
       {
-        title: "Future Fashion",
-        description: "AI fashion commercial concept blending traditional photography with Stable Diffusion elements.",
-        videoUrl: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        title: "Future of Digital Media",
+        description: "Innovative workflows blending traditional production with cutting-edge AI tools.",
+        videoUrl: "https://vimeo.com/showcase/12101927",
         thumbnailUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
         displayOrder: 3
       }

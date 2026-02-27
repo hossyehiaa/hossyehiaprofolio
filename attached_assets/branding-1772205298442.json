@@ -1,0 +1,142 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "ABCRepro-Regular",
+      "role": "body"
+    },
+    {
+      "family": "ABCRepro-Medium",
+      "role": "heading"
+    }
+  ],
+  "colors": {
+    "primary": "#1D242C",
+    "accent": "#F9FAFB",
+    "background": "#0E1216",
+    "textPrimary": "#0E1216",
+    "link": "#667B87"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "ABCRepro-Regular",
+      "heading": "ABCRepro-Medium"
+    },
+    "fontStacks": {
+      "heading": [
+        "ABCRepro-Medium",
+        "sans-serif"
+      ],
+      "body": [
+        "ABCRepro-Regular",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "ABCRepro-Regular",
+        "sans-serif"
+      ]
+    },
+    "fontSizes": {
+      "h1": "16px",
+      "h2": "16px",
+      "body": "14px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 6,
+    "borderRadius": "12px"
+  },
+  "components": {
+    "input": {
+      "background": "#0E1216",
+      "textColor": "#000000",
+      "borderColor": null,
+      "borderRadius": "0px",
+      "borderRadiusCorners": {
+        "topLeft": "0px",
+        "topRight": "0px",
+        "bottomRight": "0px",
+        "bottomLeft": "0px"
+      },
+      "shadow": "none"
+    },
+    "buttonPrimary": {
+      "background": "#F9FAFB",
+      "textColor": "#0E1216",
+      "borderRadius": "12px",
+      "borderRadiusCorners": {
+        "topLeft": "12px",
+        "topRight": "12px",
+        "bottomRight": "12px",
+        "bottomLeft": "12px"
+      },
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#0E1216",
+      "textColor": "#000000",
+      "borderRadius": "16px",
+      "borderRadiusCorners": {
+        "topLeft": "16px",
+        "topRight": "16px",
+        "bottomRight": "16px",
+        "bottomLeft": "16px"
+      },
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "favicon": "File saved at: attached_assets/favicon.svg",
+    "ogImage": null
+  },
+  "__llm_logo_reasoning": {
+    "selectedIndex": -1,
+    "reasoning": "No suitable brand logo was found that clearly represents 'Hassan Yehia Visuals on Vimeo'. The candidate does not match the brand inferred from the page title and URL.",
+    "confidence": 0.3,
+    "rejected": true,
+    "source": "llm"
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "Start watching",
+      "reasoning": "Button #0 with text 'Start watching' is the primary CTA due to its distinct blue background color, which stands out against the dark theme and suggests an action-oriented purpose."
+    },
+    "secondary": {
+      "index": 2,
+      "text": "Event EditingBhgree Cr332",
+      "reasoning": "Button #1 is selected as secondary due to its different dark background color, which contrasts with the primary button's blue, and it is part of a group of similar buttons indicating secondary actions."
+    },
+    "confidence": 0.9
+  },
+  "personality": {
+    "tone": "modern",
+    "energy": "medium",
+    "targetAudience": "creatives and visual artists"
+  },
+  "designSystem": {
+    "framework": "chakra",
+    "componentLibrary": ""
+  },
+  "confidence": {
+    "buttons": 0.9,
+    "colors": 0.9,
+    "overall": 0.9
+  },
+  "__llm_metadata": {
+    "logoSelection": {
+      "llmCalled": true,
+      "llmSucceeded": true,
+      "finalSource": "llm",
+      "rawLogoSelection": {
+        "selectedLogoIndex": -1,
+        "selectedLogoReasoning": "No suitable brand logo was found that clearly represents 'Hassan Yehia Visuals on Vimeo'. The candidate does not match the brand inferred from the page title and URL.",
+        "confidence": 0.3
+      }
+    },
+    "buttonClassification": {
+      "llmCalled": true,
+      "llmSucceeded": true
+    }
+  }
+}
