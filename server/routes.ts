@@ -99,25 +99,74 @@ async function seedDatabase() {
     const { projects: projectsSchema } = await import("@shared/schema");
     await db.insert(projectsSchema).values([
       {
-        title: "Commercial Showcase",
-        description: "A professional showcase of high-end commercial projects and AI-driven visual storytelling.",
-        videoUrl: "https://vimeo.com/showcase/12101927",
-        thumbnailUrl: "https://images.unsplash.com/photo-1605806616949-1e87b487cb2a",
+        title: "Event Editing",
+        description: "Professional event editing showcase.",
+        videoUrl: "https://player.vimeo.com/video/1163552396?h=0f54a2566f",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2119806740-cf94a7d6b4d2ce6f0523c87765910edcfd4b8f825e5a5c3a9aea9baca84e0c90-d",
         displayOrder: 1
       },
       {
-        title: "Cinematic AI Narratives",
-        description: "Exploring the boundaries of generative AI to create immersive cinematic experiences.",
-        videoUrl: "https://vimeo.com/showcase/12101927",
-        thumbnailUrl: "https://images.unsplash.com/photo-1492691527719-9d1e07e534b4",
+        title: "BOHUB Cafe AI - AD",
+        description: "AI-powered cafe advertisement.",
+        videoUrl: "https://player.vimeo.com/video/1163554262?h=9eaaf267a6",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2119809513-da7b4dc44937cb34de85ff3e569e831adae13e8e666beb89169d7536bfca864a-d",
         displayOrder: 2
       },
       {
-        title: "Future of Digital Media",
-        description: "Innovative workflows blending traditional production with cutting-edge AI tools.",
-        videoUrl: "https://vimeo.com/showcase/12101927",
-        thumbnailUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f",
+        title: "Let\u2019s Go AI - AD",
+        description: "AI advertisement project.",
+        videoUrl: "https://player.vimeo.com/video/1163554803?h=90f1eaa2e6",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2119810260-3ab04578ad8f652b63168ba3e76b192ad02666a1f8ad30de31718a4eea2318d9-d",
         displayOrder: 3
+      },
+      {
+        title: "3D Animation AD",
+        description: "3D animation advertisement.",
+        videoUrl: "https://player.vimeo.com/video/1163735699?h=1e834c2f69",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2120065646-120b52ba45ba62c7b08a85b80cb24706080236d13eabe6b909592a672591e470-d",
+        displayOrder: 4
+      },
+      {
+        title: "Video Editing",
+        description: "Professional video editing reel.",
+        videoUrl: "https://player.vimeo.com/video/1163557036?h=5a143c1b2a",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2119813050-5433ceeb07dac79bf990eb1cd16e6fdcb3f78cf55dd19c6f26598eca41cd15ed-d",
+        displayOrder: 5
+      },
+      {
+        title: "Comma Agency - AD",
+        description: "Agency advertisement project.",
+        videoUrl: "https://player.vimeo.com/video/1163558059?h=4081288853",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2119814391-e0494a5515ad89ee5968c36d3b853de2c5fa72e9bff91cda70fd88eb44962db1-d",
+        displayOrder: 6
+      },
+      {
+        title: "Notion Project",
+        description: "Notion product showcase.",
+        videoUrl: "https://player.vimeo.com/video/1163563239?h=9c8d1b3eaf",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2119821805-2c06dadf0143a9a82ebab0d95412788bbe449720e3e604bd39966356a1cbf908-d",
+        displayOrder: 7
+      },
+      {
+        title: "ClickUp - Personal AD",
+        description: "ClickUp personal advertisement.",
+        videoUrl: "https://player.vimeo.com/video/1163564687?h=6ee0d592ae",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2119823981-a504fc2f4b50d81336a6d6a9c3157b0834667acf7e808dcbe8005398a7c0e1d5-d",
+        displayOrder: 8
+      },
+      {
+        title: "Ya Habibi Motion",
+        description: "Motion graphics project.",
+        videoUrl: "https://player.vimeo.com/video/1163565403?h=c00b04a8d9",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2119825134-cb6dbbeb896ada200cf42a8efe1e9f3b8178c422faab57882971d569dd1616c6-d",
+        displayOrder: 9
+      },
+      {
+        title: "Careless Whisper Motion",
+        description: "Motion graphics project.",
+        videoUrl: "https://player.vimeo.com/video/1163565919?h=72d860f4c4",
+        thumbnailUrl: "https://i.vimeocdn.com/video/2119826522-f56ef1adab8507e7af175517c49e059083b2a5480a6c0f55be893257291faf1c-d",
+        displayOrder: 10
       }
     ]);
   }
