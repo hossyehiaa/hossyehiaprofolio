@@ -80,10 +80,16 @@ async function seedDatabase() {
 
   if (!profile) {
     await storage.updateProfile({
-      name: "Alex Chen",
+      name: "Hassan Yehia",
       title: "AI Video Creator & Director",
-      pictureUrl: "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61",
+      pictureUrl: "/images/hassan.jpg",
       summary: "I specialize in creating next-generation video content using cutting-edge AI technologies. With over 5 years of experience in digital media production and 2 years focusing exclusively on AI-driven workflows, I bring imaginative concepts to life with stunning visuals and engaging narratives."
+    });
+  } else {
+    // Update existing profile with new name and picture
+    await storage.updateProfile({
+      name: "Hassan Yehia",
+      pictureUrl: "/images/hassan.jpg"
     });
   }
 
